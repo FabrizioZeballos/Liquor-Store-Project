@@ -1,9 +1,12 @@
 import "./App.css";
+/* import { AboutUs } from "./views/AboutUs/AboutUs"; */
+import { Home } from "./views/Home/Home";
 
 function App() {
   return (
     <>
-      <h1>Venado Tuerto</h1>
+      <Home></Home>
+      {/* <AboutUs></AboutUs> */}
     </>
   );
 }
