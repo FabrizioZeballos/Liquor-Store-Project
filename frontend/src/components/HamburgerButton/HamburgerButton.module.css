@@ -10,10 +10,8 @@
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   border: 1px solid rgba(255, 0, 0, 0.273);
-}
-
-.hamburger.open {
-  transform: rotate(45deg);
+  position: relative;
+  z-index: 1;
 }
 
 .bar {
